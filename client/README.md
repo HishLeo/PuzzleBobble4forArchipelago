@@ -3,16 +3,19 @@
 C# / .NET 8 external client for Puzzle Bobble 4 (PS1 NTSC-U). This experimental branch accesses DuckStation's emulated RAM directly on Windows x64 and does not use the GDB server.
 
 ## Startup and console behavior
+
 - Waits for DuckStation RAM access. If DuckStation cannot be found, prints `Could not find DuckStation.` and retries every five seconds with `Retrying in 5 seconds...`.
 - Once memory is accessible, prints `Connected to DuckStation.` and asks for `Enter AP domain:`, `Enter port:`, `Slot name:`, and `Room password:`. Leave the password blank for password-less rooms.
-- Attempts a real Archipelago login using the game name `Puzzle Bobble 4` and the `Archipelago.MultiClient.Net` library. If login fails, it shows a concise error and asks for the connection details again.
-- After connecting, the console accepts Archipelago server commands. Type `!help` and press Enter to list server commands; `/help` lists the client’s local command help. Console input runs on a separate thread and is not consumed by the game polling loop. Menu controls remain mapped from the game's controller-input memory byte.
+- Attempts an Archipelago login using the game name `Puzzle Bobble 4` and the `Archipelago.MultiClient.Net` library. If login fails, it shows a concise error and asks for the connection details again.
+- After connecting, the console accepts Archipelago server commands. Type `!help` and press Enter to list server commands; `/help` lists the client's local command help. Console input runs on a separate thread and is not consumed by the game polling loop. Menu controls remain mapped from the game's controller-input memory byte.
 - Internal memory diagnostics and local check spam are suppressed from the player's console.
 
 ## Current integration status
+
 This build connects to Archipelago, sends a location check when the existing local detector sees a level transition, and queues received items for safe processing on the game-polling thread. The paired prototype APWorld assigns `Level Skip` at every normal level check. The client applies received `Level Skip` items to its counter/HUD. Other item effects and complete multiworld item-sending messages are not implemented yet.
 
 ## Run
+
 1. Open DuckStation and load Puzzle Bobble 4. Leave its GDB server disabled for this experiment.
 2. On the developer machine, install the .NET 8 SDK.
 3. Run `build-windows-x64.ps1` to publish a self-contained Windows x64 executable, or run from this folder with `dotnet run --project .\src\PuzzleBobble4ArchipelagoClient.csproj`.
@@ -23,6 +26,7 @@ No menu coordinates are written at startup. Memory reads begin after finding the
 ## Level letter ID mapping used by check detection
 
 The check logger interprets the game's raw `0x00167A8F` value as:
+
 - `00`-`13`: A-T
 - `14`: U
 - `15`: V
@@ -34,47 +38,40 @@ The check logger interprets the game's raw `0x00167A8F` value as:
 
 Unknown values are logged as `ID-XX`. This mapping affects check names only; it does not change the selected-menu value written by keyboard navigation.
 
+## Automatic reset to Menu0
 
-### Restablecimiento automático a Menu0
+When the client detects entry into the letter-selection screen (`0x00167A0C = 01`), it resets the logical position and camera coordinates to `Menu0`. It also does this if the client starts while the game is already on that screen. It does not continuously rewrite Menu0; it waits until it detects entry into that state.
 
-Al detectar una entrada a la pantalla de selección de letras (`0x00167A0C = 01`), el cliente restablece la posición lógica y las coordenadas de cámara a `Menu0`. También lo hace si se inicia el cliente estando ya en esa pantalla. No reescribe Menu0 continuamente: espera a detectar la entrada al estado.
+## Automatic correction to Menu0 and manual navigation
 
+When entering letter selection, the client watches for changes in `0x00167A8F` and can correct the first non-zero change to `00`. If a letter is selected manually using the program's arrow keys, this automatic correction is disabled so that it does not overwrite the player's selection.
 
-### Corrección automática a Menu0 y navegación manual
+## Full automatic reset to Menu0
 
-Al entrar en la selección de letras, el cliente vigila cambios en `0x00167A8F` y puede corregir el primer cambio no nulo a `00`. Si elegís manualmente una letra con las flechas del programa, esa corrección automática se desactiva para no sobrescribir tu selección.
+When entering the letter-selection screen, the client watches `0x00167A8F`. If that byte changes to `00`, it applies `Menu0` through the same `ApplyMenu` routine used by Backspace, including the letter byte and camera coordinates. If another letter is selected manually with the arrow keys, automatic monitoring is disabled so that the manual selection is not overwritten.
 
+## Letter locks and local unlocks
 
-### Reset completo automático a Menu0
+- For testing, all letters start unlocked (`LockedLetters` is empty).
+- The locking mechanism remains implemented: exits are checked against the graph, navigation skips menus whose two exits are blocked, and the code preserves the local A1-A5 unlocks for C, D, E, Y, and Z. This allows locks to be re-enabled for future Archipelago logic without reimplementing the system.
+- The neighbor table preserves the graph's exits: S has X to the left and Y to the right; T has Y to the left and Z to the right. U-Z do not have menu coordinates in this version, but their exits are still evaluated to determine whether the entry direction is blocked or allowed.
+- Checks are detected and processed locally in the console; they are not yet sent to or received from an Archipelago server.
 
-Al entrar en la pantalla de selección de letras, el cliente vigila `0x00167A8F`. Si ese byte cambia a `00`, aplica `Menu0` mediante la misma rutina `ApplyMenu` que usa Backspace, incluyendo el byte de letra y las coordenadas de cámara. Si se elige manualmente otra letra con las flechas del programa, la vigilancia automática se desactiva para no sobrescribir esa elección.
+## Linear navigation filtered by available exits
 
+The arrow keys traverse menus in linear order, but they do not stop at a letter merely because its name is not locked. For each candidate menu, the client checks its two exits in the defined graph and verifies whether either leads to a letter whose entry is unlocked. If neither exit is available, that menu is skipped and navigation continues in the pressed direction. If no other valid letter is found, navigation returns to or remains at Menu0. When the selected menu is reached, the client corrects `0x00167D3A` to face an unlocked exit if the current direction is blocked.
 
-### Bloqueo de entradas y desbloqueos locales
+For testing, all letters are unlocked at startup. The logic for blocking destinations and unlocking them through A1-A5 is preserved for future Archipelago integration.
 
-- Para pruebas, todas las letras empiezan desbloqueadas (el conjunto `LockedLetters` está vacío).
-- La mecánica de bloqueo sigue implementada: las salidas se consultan en el grafo, la navegación omite menús cuyas dos salidas estén bloqueadas y el código conserva los desbloqueos locales de A1-A5 para C, D, E, Y y Z. Esto permite volver a activar bloqueos para la lógica futura de Archipelago sin reimplementar el sistema.
-- La tabla de vecinos conserva las salidas del grafo: S tiene X a la izquierda e Y a la derecha; T tiene Y a la izquierda y Z a la derecha. U-Z no tienen coordenadas de menú en esta versión, pero sus salidas sí se evalúan para bloquear o permitir la dirección de entrada.
-- Los checks se detectan y se procesan localmente en consola; todavía no se envían ni reciben objetos de un servidor Archipelago.
+## Locking the special ? letter
 
+The locking logic also covers entry to `?`, through Q on the right and R on the left. Currently, `?` starts unlocked for testing; the mechanism is preserved for future configuration through Archipelago.
 
-### Navegación lineal filtrada por salidas disponibles
+## Level-mode plan generated by Archipelago
 
-Las flechas recorren los menús en orden lineal, pero no se detienen en una letra solo porque su nombre no esté bloqueado. Para cada menú candidato, el cliente consulta sus dos salidas en el grafo definido y comprueba si alguna conduce a una letra cuya entrada esté desbloqueada. Si ninguna salida está disponible, omite ese menú y sigue en la dirección pulsada. Cuando no encuentra otra letra válida, vuelve o permanece en Menu0. Al llegar al menú seleccionado, corrige `0x00167D3A` para mirar hacia una salida desbloqueada si la dirección actual está bloqueada.
+Modes are no longer randomized or read from local client files. The world's YAML configures `level_mode_weights`; during generation, the APWorld uses the seed's deterministic RNG to assign a mode to each of the 135 levels and sends the complete map in `slot_data` as `level_mode_plan`.
 
-Para pruebas, todas las letras están desbloqueadas al iniciar. La lógica que permite bloquear destinos y desbloquearlos mediante A1-A5 se conserva para la futura integración con Archipelago.
-
-
-### Bloqueo de la letra especial ?
-
-La lógica de bloqueo también cubre la entrada a `?`, a través de Q hacia la derecha y R hacia la izquierda. Actualmente `?` comienza desbloqueada para pruebas; el mecanismo se conserva para su configuración futura desde Archipelago.
-
-
-## Plan de modos generado por Archipelago
-
-Los modos ya no se sortean ni se leen desde archivos locales del cliente. El YAML del mundo configura `level_mode_weights`; durante la generación, el APWorld usa el RNG determinista de la seed para asignar un modo a cada uno de los 135 niveles y envía el mapa completo en `slot_data` como `level_mode_plan`.
-
-Ejemplo de YAML para el test inicial (todos Normal Original):
+Example YAML for an initial test (all Normal Original):
 
 ```yaml
 level_mode_weights:
@@ -84,62 +81,55 @@ level_mode_weights:
   expert_aw: 0
 ```
 
-El cliente lee `level_mode_plan` al iniciar sesión en Archipelago, valida que contenga los 135 niveles y que cada modo sea reconocido, y usa exclusivamente ese plan al configurar DuckStation. Si el plan no llega o está incompleto, muestra una advertencia y no cambia los modos; no genera un plan local alternativo. Para cambiar la distribución, modificá los pesos en el YAML y generá una nueva seed/multidata.
+When the client starts an Archipelago session, it reads `level_mode_plan`, validates that it contains all 135 levels and that every mode is recognized, and uses only that plan to configure DuckStation. If the plan is missing or incomplete, the client displays a warning and does not change the modes; it does not generate a local fallback plan. To change the distribution, edit the weights in the YAML and generate a new seed/multidata.
 
-### Aplicación de modos en DuckStation
+### Applying modes in DuckStation
 
-El cliente aplica el modo del plan a través de las direcciones de memoria confirmadas: `0x00167A96` (00=Original, 01=Another World) y `0x00167A91` (01=Normal, 02=Expert). Durante la selección calcula la letra destino a partir del menú base y la dirección de mirada, y prepara el modo de su nivel 1. Conserva ese destino para aplicarlo al entrar al nivel, en vez de inferirlo de `0x00167A8F`, que identifica el menú base y usa `00` para Menu0. Al detectar un check de los niveles 1-4, prepara inmediatamente el modo del siguiente nivel de esa misma letra. La consola muestra los valores escritos y leídos de vuelta.
+The client applies the plan's modes using the confirmed memory addresses: `0x00167A96` (`00` = Original, `01` = Another World) and `0x00167A91` (`01` = Normal, `02` = Expert). During selection, it calculates the destination letter from the base menu and facing direction, then prepares that letter's level 1 mode. It keeps that destination and applies the mode when entering the level, rather than inferring it from `0x00167A8F`, which identifies the base menu and uses `00` for Menu0. When a completion check is detected for levels 1-4, it immediately prepares the next level's mode for the same letter. The console displays the values written and read back.
 
+### Detecting Letter1 levels
 
-### Detección de niveles Letra1
+The client detects the transition into `0x00167A10 = 05` while `0x00167A0C = 03`. It uses the destination captured while the player was in the menu (the letter the player was facing) to apply the `Letter1` assignment. This avoids confusing Menu0 (`00`) with A and fixes A1/B1 and other destinations. Letter ID decoding also follows the mapping Menu0=`00`, A=`01`, B=`02`, …, T=`14`, U=`15`, V=`16`, W=`17`, ?=`18`, X=`19`, Y=`1A`, Z=`1B`. Levels 2-5 continue to use completion-check detection.
 
-El cliente detecta el flanco de entrada a `0x00167A10 = 05` mientras `0x00167A0C = 03`. Usa el destino capturado mientras el jugador estaba en el menú (la letra que miraba) para aplicar la asignación de `Letra1`; esto evita confundir Menu0 (`00`) con A y corrige A1/B1 y los demás destinos. La decodificación del ID de letra también respeta el mapeo Menu0=`00`, A=`01`, B=`02`, …, T=`14`, U=`15`, V=`16`, W=`17`, ?=`18`, X=`19`, Y=`1A`, Z=`1B`. Los niveles 2-5 continúan usando la detección del check de finalización.
+### Displaying the focused letter in the console
 
+While `0x00167A0C=01` (letter selection), the client prints `LETTER YOU ARE LOOKING AT` when entering the menu and whenever `0x00167A8F` changes. It also displays the letter read back after navigation initiated from the client.
 
-### Mostrar la letra enfocada en consola
+### Diagnostics for the focused letter and entry into Letter1
 
-Mientras `0x00167A0C=01` (selección de letras), el cliente imprime `LETRA QUE ESTÁS MIRANDO` al entrar al menú y cada vez que cambia `0x00167A8F`. También muestra la letra leída después de aplicar una navegación desde el cliente.
+The console reports the target letter based on the base menu and facing direction (`0x00167D3A`: `00` = left, `01` = right). It also reports every transition of `0x00167A10` to `05` and whether the level 1 mode was written and verified during the session. “Written and verified” means both mode addresses returned the expected values after writing; it does not guarantee that the game will not change them later while loading the level.
 
+### Item weights from the Archipelago YAML (v12)
 
-### Diagnóstico de letra mirada y entrada a Letra1
+The client no longer reads or generates assignments from `item-weights.json`. The APWorld uses the YAML options to create the seed's item pool:
 
-La consola informa la letra objetivo según el menú base y la dirección de mirada (`0x00167D3A`: `00` izquierda, `01` derecha). También informa cada transición de `0x00167A10` a `05` y si el modo del nivel 1 de una letra se escribió y verificó en esta sesión. “Modificado y verificado” indica que ambas direcciones de modo devolvieron los valores esperados tras la escritura; no garantiza que el juego no los cambie posteriormente al cargar el nivel.
+- `filler_weight`: relative weights for `Pointer-Guide`, `Star-Bubble`, `Metal-Bubble`, and `Level-skip`.
+- `trap_weight`: the percentage of the filler pool reserved for traps.
+- `trap_types`: relative weights for `Rainbow-Bubble`, `Obstacle-Block`, `Random-Color-Bubble`, and `Falling-Ceiling`.
 
-
-### Pesos de ítems desde el YAML de Archipelago (v12)
-
-El cliente no lee ni genera asignaciones desde `item-weights.json`. El APWorld usa las opciones del YAML para crear el pool de la seed:
-
-- `filler_weight`: pesos relativos de `Pointer-Guide`, `Star-Bubble`, `Metal-Bubble` y `Level-skip`.
-- `trap_weight`: porcentaje del pool de relleno que se reserva para trampas.
-- `trap_types`: pesos relativos de `Rainbow-Bubble`, `Obstacle-Block`, `Random-Color-Bubble` y `Falling-Ceiling`.
-
-El RNG de Archipelago aplica esos pesos durante la generación. En el inicio de sesión, el cliente recibe `item_weight_config` con los valores efectivos y `level_item_plan` con la asignación final de ítems a las 135 ubicaciones. Guarda una copia informativa en `level-item-plan-received.json`; no vuelve a sortear ítems ni sustituye la entrega real de Archipelago.
+Archipelago's RNG applies these weights during generation. When the session starts, the client receives `item_weight_config` with the effective values and `level_item_plan` with the final item assignment for all 135 locations. It saves an informational copy to `level-item-plan-received.json`; it does not randomize items again or replace Archipelago's actual item delivery.
 
 ## Level Skip mechanic (local prototype)
 
 - The counter is stored internally as an integer from `0` to `99` and displayed as ASCII digits in `Skips 00`.
 - `FILL_Level Skip` is handled by `Program.HandleReceivedItem(string itemName)`: each received item increments the counter by one, up to `99`, and updates the primary and mirrored HUD digits. This handler is prepared for the future Archipelago item-received callback; live item reception is not connected yet.
 - To use a skip, the player must be in a level with `0x00167A0C = 03` and `0x00167A10 = 02`, then press R2 (`0x0016BCEB = FD`). The input is edge-triggered, so holding R2 does not consume multiple skips.
-- If the counter is `00`, R2 does nothing. If a skip is available, the client writes `03` to `0x00167A10`, decrements the counter, updates `0x0011A007`–`0x0011A008`, and mirrors the digits to `0x0011A017`–`0x0011A018`.
+- If the counter is `00`, R2 does nothing. If a skip is available, the client writes `03` to `0x00167A10`, decrements the counter, updates `0x0011A007`-`0x0011A008`, and mirrors the digits to `0x0011A017`-`0x0011A018`.
 - A skip-triggered `02 -> 03` transition is excluded from the local completed-level check detector, so using a skip does not incorrectly log a normal completion check.
 
+## Initial Archipelago checks and Level Skip test
 
-## Initial Archipelago checks + Level Skip test
 - Each existing local level-completion detection (`A1`, `A2`, etc.) is sent using the location ID resolved from the connected Archipelago session.
 - The client prints `YOU sent A1 to Archipelago.` when it submits a check.
 - The paired `puzzle_bobble_4_level_skip.apworld` uses `Level Skip` as the item in the item pool for every normal level location.
 - Received `Level Skip` items are queued from the Archipelago callback and applied on the main polling loop, increasing the local skip counter/HUD.
-- This is an initial test integration, not the complete item system. Confirm the check name mapping in-game and verify that each completion is marked in the server before relying on it.
-
+- This is an initial test integration, not the complete item system. Confirm the check name mapping in-game and verify that each completion is marked on the server before relying on it.
 
 ## Goal-critical remote Unlock prerequisites (v7 source)
 
 The matching Puzzle Bobble 4 world can provide `unlock_prerequisites` in slot data. When present, the client stores a received goal-world `Unlock` item as pending until all listed prerequisite Unlocks have themselves unlocked. This allows a multiplayer seed to require remote Unlock items before the goal world can be entered. Solo seeds send an empty prerequisite list and keep the usual behavior.
 
 This source archive has not been compiled in this environment; build it on Windows with the included `build-windows-x64.ps1` and the .NET 8 SDK before replacing your existing client.
-
-
 
 ## Console commands
 
