@@ -1,0 +1,29 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "content": {
+      "type": "map",
+      "maps": [
+        "World Map"
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "content": {
+      "type": "map",
+      "maps": [
+        "World Map"
+      ]
+    }
+  },
+  "tracker_vertical": {
+    "type": "container",
+    "content": {
+      "type": "map",
+      "maps": [
+        "World Map"
+      ]
+    }
+  }
+}

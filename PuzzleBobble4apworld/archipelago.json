@@ -1,0 +1,10 @@
+{
+  "game": "Puzzle Bobble 4",
+  "world_version": "0.8.0",
+  "minimum_ap_version": "0.6.0",
+  "authors": [
+    "Hish"
+  ],
+  "version": 7,
+  "compatible_version": 7
+}

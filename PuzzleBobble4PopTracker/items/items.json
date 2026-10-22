@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Unlock C world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock C world"
+  },
+  {
+    "name": "Unlock D world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock D world"
+  },
+  {
+    "name": "Unlock E world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock E world"
+  },
+  {
+    "name": "Unlock F world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock F world"
+  },
+  {
+    "name": "Unlock G world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock G world"
+  },
+  {
+    "name": "Unlock H world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock H world"
+  },
+  {
+    "name": "Unlock I world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock I world"
+  },
+  {
+    "name": "Unlock J world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock J world"
+  },
+  {
+    "name": "Unlock K world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock K world"
+  },
+  {
+    "name": "Unlock L world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock L world"
+  },
+  {
+    "name": "Unlock M world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock M world"
+  },
+  {
+    "name": "Unlock N world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock N world"
+  },
+  {
+    "name": "Unlock O world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock O world"
+  },
+  {
+    "name": "Unlock P world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock P world"
+  },
+  {
+    "name": "Unlock Q world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Q world"
+  },
+  {
+    "name": "Unlock R world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock R world"
+  },
+  {
+    "name": "Unlock S world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock S world"
+  },
+  {
+    "name": "Unlock T world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock T world"
+  },
+  {
+    "name": "Unlock U world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock U world"
+  },
+  {
+    "name": "Unlock V world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock V world"
+  },
+  {
+    "name": "Unlock W world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock W world"
+  },
+  {
+    "name": "Unlock ? world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock ? world"
+  },
+  {
+    "name": "Unlock X world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock X world"
+  },
+  {
+    "name": "Unlock Y world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Y world"
+  },
+  {
+    "name": "Unlock Z world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Z world"
+  }
+]

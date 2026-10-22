@@ -1,0 +1,1494 @@
+[
+  {
+    "name": "World A",
+    "short_name": "A",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 886,
+        "y": 854,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "A1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "A2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "A3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "A4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "A5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ]
+  },
+  {
+    "name": "World B",
+    "short_name": "B",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1177,
+        "y": 854,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "B1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "B2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "B3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "B4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "B5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ]
+  },
+  {
+    "name": "World C",
+    "short_name": "C",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 736,
+        "y": 716,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock C world",
+        "hosted_item": "Unlock C world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "C1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "C2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "C3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "C4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "C5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock C world"
+    ]
+  },
+  {
+    "name": "World D",
+    "short_name": "D",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1031,
+        "y": 716,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock D world",
+        "hosted_item": "Unlock D world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "D1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "D2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "D3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "D4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "D5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock D world"
+    ]
+  },
+  {
+    "name": "World E",
+    "short_name": "E",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1326,
+        "y": 716,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock E world",
+        "hosted_item": "Unlock E world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "E1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "E2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "E3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "E4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "E5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock E world"
+    ]
+  },
+  {
+    "name": "World F",
+    "short_name": "F",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 590,
+        "y": 577,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock F world",
+        "hosted_item": "Unlock F world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "F1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "F2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "F3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "F4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "F5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock F world"
+    ]
+  },
+  {
+    "name": "World G",
+    "short_name": "G",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 886,
+        "y": 577,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock G world",
+        "hosted_item": "Unlock G world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "G1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "G2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "G3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "G4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "G5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock G world"
+    ]
+  },
+  {
+    "name": "World H",
+    "short_name": "H",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1177,
+        "y": 577,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock H world",
+        "hosted_item": "Unlock H world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "H1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "H2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "H3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "H4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "H5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock H world"
+    ]
+  },
+  {
+    "name": "World I",
+    "short_name": "I",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1473,
+        "y": 577,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock I world",
+        "hosted_item": "Unlock I world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "I1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "I2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "I3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "I4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "I5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock I world"
+    ]
+  },
+  {
+    "name": "World J",
+    "short_name": "J",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 443,
+        "y": 440,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock J world",
+        "hosted_item": "Unlock J world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "J1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "J2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "J3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "J4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "J5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock J world"
+    ]
+  },
+  {
+    "name": "World K",
+    "short_name": "K",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 736,
+        "y": 440,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock K world",
+        "hosted_item": "Unlock K world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "K1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "K2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "K3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "K4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "K5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock K world"
+    ]
+  },
+  {
+    "name": "World L",
+    "short_name": "L",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1031,
+        "y": 440,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock L world",
+        "hosted_item": "Unlock L world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "L1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "L2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "L3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "L4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "L5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock L world"
+    ]
+  },
+  {
+    "name": "World M",
+    "short_name": "M",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1326,
+        "y": 440,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock M world",
+        "hosted_item": "Unlock M world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "M1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "M2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "M3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "M4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "M5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock M world"
+    ]
+  },
+  {
+    "name": "World N",
+    "short_name": "N",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1620,
+        "y": 440,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock N world",
+        "hosted_item": "Unlock N world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "N1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "N2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "N3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "N4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "N5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock N world"
+    ]
+  },
+  {
+    "name": "World O",
+    "short_name": "O",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 296,
+        "y": 302,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock O world",
+        "hosted_item": "Unlock O world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "O1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "O2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "O3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "O4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "O5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock O world"
+    ]
+  },
+  {
+    "name": "World P",
+    "short_name": "P",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 590,
+        "y": 302,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock P world",
+        "hosted_item": "Unlock P world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "P1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "P2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "P3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "P4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "P5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock P world"
+    ]
+  },
+  {
+    "name": "World Q",
+    "short_name": "Q",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 886,
+        "y": 302,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock Q world",
+        "hosted_item": "Unlock Q world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Q1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Q2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Q3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Q4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Q5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock Q world"
+    ]
+  },
+  {
+    "name": "World R",
+    "short_name": "R",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1177,
+        "y": 302,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock R world",
+        "hosted_item": "Unlock R world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "R1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "R2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "R3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "R4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "R5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock R world"
+    ]
+  },
+  {
+    "name": "World S",
+    "short_name": "S",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1473,
+        "y": 302,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock S world",
+        "hosted_item": "Unlock S world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "S1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "S2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "S3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "S4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "S5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock S world"
+    ]
+  },
+  {
+    "name": "World T",
+    "short_name": "T",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1766,
+        "y": 302,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock T world",
+        "hosted_item": "Unlock T world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "T1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "T2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "T3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "T4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "T5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock T world"
+    ]
+  },
+  {
+    "name": "World U",
+    "short_name": "U",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 149,
+        "y": 165,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock U world",
+        "hosted_item": "Unlock U world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "U1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "U2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "U3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "U4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "U5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock U world"
+    ]
+  },
+  {
+    "name": "World V",
+    "short_name": "V",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 443,
+        "y": 165,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock V world",
+        "hosted_item": "Unlock V world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "V1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "V2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "V3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "V4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "V5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock V world"
+    ]
+  },
+  {
+    "name": "World W",
+    "short_name": "W",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 736,
+        "y": 165,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock W world",
+        "hosted_item": "Unlock W world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "W1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "W2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "W3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "W4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "W5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock W world"
+    ]
+  },
+  {
+    "name": "World ?",
+    "short_name": "?",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1031,
+        "y": 165,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock ? world",
+        "hosted_item": "Unlock ? world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "?1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "?2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "?3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "?4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "?5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock ? world"
+    ]
+  },
+  {
+    "name": "World X",
+    "short_name": "X",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1326,
+        "y": 165,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock X world",
+        "hosted_item": "Unlock X world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "X1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "X2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "X3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "X4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "X5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock X world"
+    ]
+  },
+  {
+    "name": "World Y",
+    "short_name": "Y",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1620,
+        "y": 165,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock Y world",
+        "hosted_item": "Unlock Y world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Y1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Y2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Y3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Y4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Y5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock Y world"
+    ]
+  },
+  {
+    "name": "World Z",
+    "short_name": "Z",
+    "map_locations": [
+      {
+        "map": "World Map",
+        "x": 1914,
+        "y": 165,
+        "size": 28
+      }
+    ],
+    "chest_unopened_img": "images/pending.png",
+    "chest_opened_img": "images/checked.png",
+    "sections": [
+      {
+        "name": "Unlock Z world",
+        "hosted_item": "Unlock Z world",
+        "item_count": 0,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Z1",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Z2",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Z3",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Z4",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      },
+      {
+        "name": "Z5",
+        "item_count": 1,
+        "chest_unopened_img": "images/pending.png",
+        "chest_opened_img": "images/checked.png"
+      }
+    ],
+    "access_rules": [
+      "Unlock Z world"
+    ]
+  }
+]

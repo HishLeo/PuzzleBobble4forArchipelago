@@ -1,0 +1,9 @@
+[
+  {
+    "name": "World Map",
+    "img": "images/map.png",
+    "location_size": 28,
+    "location_border_thickness": 2,
+    "location_shape": "rect"
+  }
+]
