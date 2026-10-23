@@ -16,7 +16,7 @@ Play *Puzzle Bobble 4* in an [Archipelago](https://archipelago.gg/) multiworld!
 
 1. Install the APWorld by double-clicking the `.apworld` file or copying it into your Archipelago installation's `custom_worlds` folder.
 2. Edit the YAML file to configure your preferred options.
-3. Copy the YAML file into the `Players` folder in your Archipelago installation.
+3. Copy the YAML file into the `Players` folder in your Archipelago installation (Your goal will be displayed in the client).
 4. Generate the game using Archipelago.
 5. Host the game by uploading the generated ZIP from your Archipelago `output` folder to the [Archipelago hosting website](https://archipelago.gg/uploads).
 6. Open DuckStation and load *Puzzle Bobble 4*.
