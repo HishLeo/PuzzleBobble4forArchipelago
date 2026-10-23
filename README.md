@@ -2,6 +2,8 @@
 
 Play *Puzzle Bobble 4* in an [Archipelago](https://archipelago.gg/) multiworld!
 
+<img width="518" height="546" alt="PB4AP" src="https://github.com/user-attachments/assets/a902068f-2720-4405-a296-4a527c09b4c9" />
+
 ## Requirements
 
 - **Windows**.
