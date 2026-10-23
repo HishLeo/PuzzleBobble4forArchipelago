@@ -49,3 +49,7 @@ You can also use [PopTracker](https://github.com/black-sliver/PopTracker) to tra
 3. Place the ZIP in PopTracker's `packs` folder, or drag and drop it into the PopTracker window.
 4. Open PopTracker and load the Puzzle Bobble 4 pack.
 5. Click **AP** and enter the required information to connect to your Archipelago session.
+
+## Dependencies and acknowledgments
+
+This project uses [Archipelago.MultiClient.Net](https://github.com/ArchipelagoMW/Archipelago.MultiClient.Net), a .NET client library for communicating with Archipelago servers, distributed under the MIT License.
