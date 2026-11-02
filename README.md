@@ -69,6 +69,24 @@ You can also use [PopTracker](https://github.com/black-sliver/PopTracker) to tra
 4. Open PopTracker and load the Puzzle Bobble 4 pack.
 5. Click **AP** and enter the required information to connect to your Archipelago session.
 
+## FAQ
+
+### The game has too many loading screens. Can I speed them up?
+
+In DuckStation, go to **Settings → Console → CD-ROM Emulation** and set **Read Speedup** and **Seek Speedup** to **Maximum**. This will reduce loading times, and the client will continue to work normally.
+
+If you experience crashes, lower one of these settings and try again.
+
+### I'm stuck in a game mode. How do I get back to the main menu?
+
+You may have already completed all currently available content in that mode. The original game does not let you return from certain game modes, but the client adds a way to do so: press **L2** to return to the main menu.
+
+### I found a Level Skip, but I didn't receive the item. Why?
+
+The client checks whether the Level Skip location has already been collected in the current seed. If you create multiple rooms using the same seed, that location may already be marked as checked, so the item will not be sent again.
+
+If possible, generate a new room with a different seed.
+
 ## Dependencies and acknowledgments
 
 This project uses [Archipelago.MultiClient.Net](https://github.com/ArchipelagoMW/Archipelago.MultiClient.Net), a .NET client library for communicating with Archipelago servers, distributed under the MIT License.
