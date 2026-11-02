@@ -1,0 +1,23 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "content": {
+      "type": "layout",
+      "key": "map_tabs"
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "content": {
+      "type": "layout",
+      "key": "map_tabs"
+    }
+  },
+  "tracker_vertical": {
+    "type": "container",
+    "content": {
+      "type": "layout",
+      "key": "map_tabs"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Puzzle/Arcade",
+    "img": "images/map.png",
+    "location_size": 28,
+    "location_border_thickness": 2,
+    "location_shape": "rect"
+  },
+  {
+    "name": "Puzzle/Story",
+    "img": "images/Puzzle_Story.png",
+    "location_size": 28,
+    "location_border_thickness": 2,
+    "location_shape": "rect"
+  },
+  {
+    "name": "VS simple",
+    "img": "images/VS_Simple.png",
+    "location_size": 42,
+    "location_border_thickness": 2,
+    "location_shape": "rect"
+  },
+  {
+    "name": "VS/Story complete",
+    "img": "images/VS_Story_Complete.png",
+    "location_size": 42,
+    "location_border_thickness": 2,
+    "location_shape": "rect"
+  },
+  {
+    "name": "VS/Contest complete",
+    "img": "images/VS_Contest_Complete.png",
+    "location_size": 78,
+    "location_border_thickness": 3,
+    "location_shape": "rect"
+  }
+]

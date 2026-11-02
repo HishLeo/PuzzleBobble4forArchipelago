@@ -1,0 +1,52 @@
+{
+  "map_tabs": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Puzzle/Arcade",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Puzzle/Arcade"
+          ]
+        }
+      },
+      {
+        "title": "Puzzle/Story",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Puzzle/Story"
+          ]
+        }
+      },
+      {
+        "title": "VS simple",
+        "content": {
+          "type": "map",
+          "maps": [
+            "VS simple"
+          ]
+        }
+      },
+      {
+        "title": "VS/Story complete",
+        "content": {
+          "type": "map",
+          "maps": [
+            "VS/Story complete"
+          ]
+        }
+      },
+      {
+        "title": "VS/Contest complete",
+        "content": {
+          "type": "map",
+          "maps": [
+            "VS/Contest complete"
+          ]
+        }
+      }
+    ]
+  }
+}

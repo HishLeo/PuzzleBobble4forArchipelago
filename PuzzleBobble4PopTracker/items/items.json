@@ -1,0 +1,1003 @@
+[
+  {
+    "name": "Unlock C world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock C world"
+  },
+  {
+    "name": "Unlock D world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock D world"
+  },
+  {
+    "name": "Unlock E world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock E world"
+  },
+  {
+    "name": "Unlock F world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock F world"
+  },
+  {
+    "name": "Unlock G world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock G world"
+  },
+  {
+    "name": "Unlock H world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock H world"
+  },
+  {
+    "name": "Unlock I world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock I world"
+  },
+  {
+    "name": "Unlock J world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock J world"
+  },
+  {
+    "name": "Unlock K world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock K world"
+  },
+  {
+    "name": "Unlock L world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock L world"
+  },
+  {
+    "name": "Unlock M world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock M world"
+  },
+  {
+    "name": "Unlock N world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock N world"
+  },
+  {
+    "name": "Unlock O world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock O world"
+  },
+  {
+    "name": "Unlock P world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock P world"
+  },
+  {
+    "name": "Unlock Q world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Q world"
+  },
+  {
+    "name": "Unlock R world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock R world"
+  },
+  {
+    "name": "Unlock S world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock S world"
+  },
+  {
+    "name": "Unlock T world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock T world"
+  },
+  {
+    "name": "Unlock U world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock U world"
+  },
+  {
+    "name": "Unlock V world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock V world"
+  },
+  {
+    "name": "Unlock W world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock W world"
+  },
+  {
+    "name": "Unlock ? world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock ? world"
+  },
+  {
+    "name": "Unlock X world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock X world"
+  },
+  {
+    "name": "Unlock Y world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Y world"
+  },
+  {
+    "name": "Unlock Z world",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Z world"
+  },
+  {
+    "name": "VS/Story Character: Bub",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_bub"
+  },
+  {
+    "name": "VS/Story Character: Alkanet",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_alkanet"
+  },
+  {
+    "name": "VS/Story Character: Marino",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_marino"
+  },
+  {
+    "name": "VS/Story Character: Kurol",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_kurol"
+  },
+  {
+    "name": "VS/Story Character: Tamtam",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_tamtam"
+  },
+  {
+    "name": "VS/Story Character: Cleon",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_cleon"
+  },
+  {
+    "name": "VS/Story Character: G",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_g"
+  },
+  {
+    "name": "VS/Story Character: Bramb",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_bramb"
+  },
+  {
+    "name": "VS/Story Character: Develon",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_develon"
+  },
+  {
+    "name": "VS/Story Character: Gigant",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_gigant"
+  },
+  {
+    "name": "VS/Story Character: Madam Luna",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_madam_luna"
+  },
+  {
+    "name": "VS/Story Character: Dreg",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_dreg"
+  },
+  {
+    "name": "VS/Story Character: Woolen",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_woolen"
+  },
+  {
+    "name": "VS/Story Character: Packy",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_packy"
+  },
+  {
+    "name": "VS/Story Character: Monsta",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_monsta"
+  },
+  {
+    "name": "VS/Story Character: Maita",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_story_character_maita"
+  },
+  {
+    "name": "Progressive Enemy",
+    "type": "consumable",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "progressive_enemy",
+    "initial_quantity": 0,
+    "max_quantity": 13
+  },
+  {
+    "name": "VS/Contest Character: Bub",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_bob"
+  },
+  {
+    "name": "VS/Contest Character: Alkanet",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_alkanet"
+  },
+  {
+    "name": "VS/Contest Character: Marino",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_marino"
+  },
+  {
+    "name": "VS/Contest Character: Kurol",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_kurol"
+  },
+  {
+    "name": "VS/Contest Character: Tamtam",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_tamtam"
+  },
+  {
+    "name": "VS/Contest Character: Cleon",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_cleon"
+  },
+  {
+    "name": "VS/Contest Character: G",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_g"
+  },
+  {
+    "name": "VS/Contest Character: Bramb",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_bramb"
+  },
+  {
+    "name": "VS/Contest Character: Develon",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_develon"
+  },
+  {
+    "name": "VS/Contest Character: Gigant",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_gigant"
+  },
+  {
+    "name": "VS/Contest Character: Madam Luna",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_madam_luna"
+  },
+  {
+    "name": "VS/Contest Character: Dreg",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_dreg"
+  },
+  {
+    "name": "VS/Contest Character: Woolen",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_woolen"
+  },
+  {
+    "name": "VS/Contest Character: Packy",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_packy"
+  },
+  {
+    "name": "VS/Contest Character: Monsta",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_monsta"
+  },
+  {
+    "name": "VS/Contest Character: Maita",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "vs_contest_character_maita"
+  },
+  {
+    "name": "Unlock Tarot card Star",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Star"
+  },
+  {
+    "name": "Unlock Tarot card Moon",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Moon"
+  },
+  {
+    "name": "Unlock Tarot card Hermit",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Hermit"
+  },
+  {
+    "name": "Unlock Tarot card Tower",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Tower"
+  },
+  {
+    "name": "Unlock Tarot card Chariot",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Chariot"
+  },
+  {
+    "name": "Unlock Tarot card Death",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Death"
+  },
+  {
+    "name": "Unlock Tarot card Devil",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Devil"
+  },
+  {
+    "name": "Unlock Tarot card Hanged Man",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Hanged Man"
+  },
+  {
+    "name": "Unlock Tarot card Magician",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Magician"
+  },
+  {
+    "name": "Unlock Tarot card Wheel of Fortune",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Wheel of Fortune"
+  },
+  {
+    "name": "Unlock Tarot card Judgement",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Judgement"
+  },
+  {
+    "name": "Unlock Tarot card Lovers",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Lovers"
+  },
+  {
+    "name": "Unlock Tarot card Temperance",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Temperance"
+  },
+  {
+    "name": "Unlock Tarot card Hierophant",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Hierophant"
+  },
+  {
+    "name": "Unlock Tarot card Emperor",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Emperor"
+  },
+  {
+    "name": "Unlock Tarot card Empress",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Empress"
+  },
+  {
+    "name": "Unlock Tarot card High Priestess",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot High Priestess"
+  },
+  {
+    "name": "Unlock Tarot card Sun",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Sun"
+  },
+  {
+    "name": "Unlock Tarot card Justice",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Justice"
+  },
+  {
+    "name": "Unlock Tarot card Strength",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot Strength"
+  },
+  {
+    "name": "Unlock Tarot card World",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock Tarot World"
+  },
+  {
+    "name": "Unlock VS/Story",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock VS/Story"
+  },
+  {
+    "name": "Unlock VS/Contest",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "Unlock VS/Contest"
+  },
+  {
+    "name": "Extra Enemy",
+    "type": "toggle",
+    "img": "images/checked.png",
+    "disabled_img": "images/pending.png",
+    "codes": "extra_enemy"
+  },
+  {
+    "name": "PB4 internal Arcade visibility A",
+    "type": "toggle",
+    "codes": "pb4_arcade_A"
+  },
+  {
+    "name": "PB4 internal Arcade visibility B",
+    "type": "toggle",
+    "codes": "pb4_arcade_B"
+  },
+  {
+    "name": "PB4 internal Arcade visibility C",
+    "type": "toggle",
+    "codes": "pb4_arcade_C"
+  },
+  {
+    "name": "PB4 internal Arcade visibility D",
+    "type": "toggle",
+    "codes": "pb4_arcade_D"
+  },
+  {
+    "name": "PB4 internal Arcade visibility E",
+    "type": "toggle",
+    "codes": "pb4_arcade_E"
+  },
+  {
+    "name": "PB4 internal Arcade visibility F",
+    "type": "toggle",
+    "codes": "pb4_arcade_F"
+  },
+  {
+    "name": "PB4 internal Arcade visibility G",
+    "type": "toggle",
+    "codes": "pb4_arcade_G"
+  },
+  {
+    "name": "PB4 internal Arcade visibility H",
+    "type": "toggle",
+    "codes": "pb4_arcade_H"
+  },
+  {
+    "name": "PB4 internal Arcade visibility I",
+    "type": "toggle",
+    "codes": "pb4_arcade_I"
+  },
+  {
+    "name": "PB4 internal Arcade visibility J",
+    "type": "toggle",
+    "codes": "pb4_arcade_J"
+  },
+  {
+    "name": "PB4 internal Arcade visibility K",
+    "type": "toggle",
+    "codes": "pb4_arcade_K"
+  },
+  {
+    "name": "PB4 internal Arcade visibility L",
+    "type": "toggle",
+    "codes": "pb4_arcade_L"
+  },
+  {
+    "name": "PB4 internal Arcade visibility M",
+    "type": "toggle",
+    "codes": "pb4_arcade_M"
+  },
+  {
+    "name": "PB4 internal Arcade visibility N",
+    "type": "toggle",
+    "codes": "pb4_arcade_N"
+  },
+  {
+    "name": "PB4 internal Arcade visibility O",
+    "type": "toggle",
+    "codes": "pb4_arcade_O"
+  },
+  {
+    "name": "PB4 internal Arcade visibility P",
+    "type": "toggle",
+    "codes": "pb4_arcade_P"
+  },
+  {
+    "name": "PB4 internal Arcade visibility Q",
+    "type": "toggle",
+    "codes": "pb4_arcade_Q"
+  },
+  {
+    "name": "PB4 internal Arcade visibility R",
+    "type": "toggle",
+    "codes": "pb4_arcade_R"
+  },
+  {
+    "name": "PB4 internal Arcade visibility S",
+    "type": "toggle",
+    "codes": "pb4_arcade_S"
+  },
+  {
+    "name": "PB4 internal Arcade visibility T",
+    "type": "toggle",
+    "codes": "pb4_arcade_T"
+  },
+  {
+    "name": "PB4 internal Arcade visibility U",
+    "type": "toggle",
+    "codes": "pb4_arcade_U"
+  },
+  {
+    "name": "PB4 internal Arcade visibility V",
+    "type": "toggle",
+    "codes": "pb4_arcade_V"
+  },
+  {
+    "name": "PB4 internal Arcade visibility W",
+    "type": "toggle",
+    "codes": "pb4_arcade_W"
+  },
+  {
+    "name": "PB4 internal Arcade visibility ?",
+    "type": "toggle",
+    "codes": "pb4_arcade_?"
+  },
+  {
+    "name": "PB4 internal Arcade visibility X",
+    "type": "toggle",
+    "codes": "pb4_arcade_X"
+  },
+  {
+    "name": "PB4 internal Arcade visibility Y",
+    "type": "toggle",
+    "codes": "pb4_arcade_Y"
+  },
+  {
+    "name": "PB4 internal Arcade visibility Z",
+    "type": "toggle",
+    "codes": "pb4_arcade_Z"
+  },
+  {
+    "name": "PB4 internal Story visibility Fool",
+    "type": "toggle",
+    "codes": "pb4_story_fool"
+  },
+  {
+    "name": "PB4 internal Story visibility Star",
+    "type": "toggle",
+    "codes": "pb4_story_star"
+  },
+  {
+    "name": "PB4 internal Story visibility Moon",
+    "type": "toggle",
+    "codes": "pb4_story_moon"
+  },
+  {
+    "name": "PB4 internal Story visibility Hermit",
+    "type": "toggle",
+    "codes": "pb4_story_hermit"
+  },
+  {
+    "name": "PB4 internal Story visibility Tower",
+    "type": "toggle",
+    "codes": "pb4_story_tower"
+  },
+  {
+    "name": "PB4 internal Story visibility Chariot",
+    "type": "toggle",
+    "codes": "pb4_story_chariot"
+  },
+  {
+    "name": "PB4 internal Story visibility Death",
+    "type": "toggle",
+    "codes": "pb4_story_death"
+  },
+  {
+    "name": "PB4 internal Story visibility Devil",
+    "type": "toggle",
+    "codes": "pb4_story_devil"
+  },
+  {
+    "name": "PB4 internal Story visibility Hanged Man",
+    "type": "toggle",
+    "codes": "pb4_story_hanged_man"
+  },
+  {
+    "name": "PB4 internal Story visibility Magician",
+    "type": "toggle",
+    "codes": "pb4_story_magician"
+  },
+  {
+    "name": "PB4 internal Story visibility Wheel of Fortune",
+    "type": "toggle",
+    "codes": "pb4_story_wheel_of_fortune"
+  },
+  {
+    "name": "PB4 internal Story visibility Judgement",
+    "type": "toggle",
+    "codes": "pb4_story_judgement"
+  },
+  {
+    "name": "PB4 internal Story visibility Lovers",
+    "type": "toggle",
+    "codes": "pb4_story_lovers"
+  },
+  {
+    "name": "PB4 internal Story visibility Temperance",
+    "type": "toggle",
+    "codes": "pb4_story_temperance"
+  },
+  {
+    "name": "PB4 internal Story visibility Hierophant",
+    "type": "toggle",
+    "codes": "pb4_story_hierophant"
+  },
+  {
+    "name": "PB4 internal Story visibility Emperor",
+    "type": "toggle",
+    "codes": "pb4_story_emperor"
+  },
+  {
+    "name": "PB4 internal Story visibility Empress",
+    "type": "toggle",
+    "codes": "pb4_story_empress"
+  },
+  {
+    "name": "PB4 internal Story visibility High Priestess",
+    "type": "toggle",
+    "codes": "pb4_story_high_priestess"
+  },
+  {
+    "name": "PB4 internal Story visibility Sun",
+    "type": "toggle",
+    "codes": "pb4_story_sun"
+  },
+  {
+    "name": "PB4 internal Story visibility Justice",
+    "type": "toggle",
+    "codes": "pb4_story_justice"
+  },
+  {
+    "name": "PB4 internal Story visibility Strength",
+    "type": "toggle",
+    "codes": "pb4_story_strength"
+  },
+  {
+    "name": "PB4 internal Story visibility World",
+    "type": "toggle",
+    "codes": "pb4_story_world"
+  },
+  {
+    "name": "PB4 internal visibility pb4_vs_story_simple",
+    "type": "toggle",
+    "codes": "pb4_vs_story_simple"
+  },
+  {
+    "name": "PB4 internal visibility pb4_vs_story_complete",
+    "type": "toggle",
+    "codes": "pb4_vs_story_complete"
+  },
+  {
+    "name": "PB4 internal visibility pb4_vs_contest_simple",
+    "type": "toggle",
+    "codes": "pb4_vs_contest_simple"
+  },
+  {
+    "name": "PB4 internal visibility pb4_vs_contest_complete",
+    "type": "toggle",
+    "codes": "pb4_vs_contest_complete"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_1",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_1"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_2",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_2"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_3",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_3"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_4",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_4"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_5",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_5"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_6",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_6"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_7",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_7"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_8",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_8"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_9",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_9"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_10",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_10"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_11",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_11"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_12",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_12"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_13",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_13"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_14",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_14"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_15",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_15"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_16",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_16"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_17",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_17"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_18",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_18"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_19",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_19"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_20",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_20"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_21",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_21"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_22",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_22"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_23",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_23"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_24",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_24"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_25",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_25"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_26",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_26"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_27",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_27"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_28",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_28"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_29",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_29"
+  },
+  {
+    "name": "PB4 internal visibility pb4_contest_wins_30",
+    "type": "toggle",
+    "codes": "pb4_contest_wins_30"
+  },
+  {
+    "name": "PB4 internal visibility pb4_vs_story_simple_secret",
+    "type": "toggle",
+    "codes": "pb4_vs_story_simple_secret"
+  },
+  {
+    "name": "PB4 internal visibility pb4_vs_story_complete_secret",
+    "type": "toggle",
+    "codes": "pb4_vs_story_complete_secret"
+  }
+]
