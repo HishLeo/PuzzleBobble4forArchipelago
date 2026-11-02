@@ -22,26 +22,42 @@ Play *Puzzle Bobble 4* in an [Archipelago](https://archipelago.gg/) multiworld!
 4. Generate the game using Archipelago.
 5. Host the game by uploading the generated ZIP from your Archipelago `output` folder to the [Archipelago hosting website](https://archipelago.gg/uploads).
 6. Open DuckStation and load *Puzzle Bobble 4*.
-7. In the game, navigate to **Game Menu**, immediately after the **Push Start Button** screen.
+7. In the game, navigate to **Game Menu**, immediately after the **Push Start Button** screen, and wait there.
 8. Launch the Puzzle Bobble 4 client and enter the connection details provided by your Archipelago room.
 9. Your goal will be displayed in the client.
 10. Have fun!
 
 ## Quality-of-Life Features
 
-The client adds the following features:
+The client adds the following general features:
 
-### World Selection
+- All characters are unlocked in Puzzle modes.
+- **R2** can be used to activate a Level Skip while playing.
+- Added informative on-screen text in certain game modes.
 
-- **Switch Worlds:** Press **L1** or **R1** to cycle through unlocked worlds.
-- **Return to Start:** Press **R2** to return to the beginning of the world-selection sequence.
-- **Change Characters:** Press **Up** or **Down** to switch characters, even if they have not been unlocked.
+### Puzzle/Arcade
 
-### During a Level
+- Change your character in World Selection using **Up / Down**.
+- Switch between unlocked worlds using **L1 / R1**.
+- Press **R2** to return to the beginning of the world selection.
+- Press **L2** to return to the main menu. When playing a level, **L2** takes you back to World Selection.
 
-- **Use Level Skips:** Press **R2** to skip the current level if you have a Level Skip available.
-- **Free Skips:** Previously completed levels can be skipped for free.
-- **Return to World Selection:** Press **L2** to return to the world-selection screen.
+### Puzzle/Story
+
+- Switch between unlocked Tarot Cards using **L1 / R1**.
+- **Note:** Using the regular Left / Right controls may take you back to the previous card. Sorry!
+- Press **L2** to return to the main menu. When playing a level, **L2** takes you back to Card Selection.
+
+### VS/Story
+
+- Switch between unlocked enemies using **L1 / R1** or **Left / Right**.
+- Change your character using **Up / Down**.
+- **Note:** Your character's sprite does not change on the enemy selection screen. Check the on-screen text to see which character you are playing as.
+- Press **L2** to return to the main menu. When playing a level, **L2** takes you back to Enemy Selection.
+
+### VS/Contest
+
+- Updated the on-screen text to display your consecutive wins instead of the total round number.
 
 ## PopTracker
 
