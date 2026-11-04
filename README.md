@@ -33,6 +33,7 @@ The client adds the following general features:
 
 - All characters are unlocked in Puzzle modes.
 - **R2** can be used to activate a Level Skip while playing.
+- You can skip credits with **Start**
 - Added informative on-screen text in certain game modes.
 
 ### Puzzle/Arcade
@@ -50,6 +51,7 @@ The client adds the following general features:
 
 ### VS/Story
 
+- Extra characters can be selected.
 - Switch between unlocked enemies using **L1 / R1** or **Left / Right**.
 - Change your character using **Up / Down**.
 - **Note:** Your character's sprite does not change on the enemy selection screen. Check the on-screen text to see which character you are playing as.
