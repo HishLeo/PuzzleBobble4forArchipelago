@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2026-11-06
+
+Updated project to version 1.2.0.
+
+### APWorld (v1.2.0)
+
+#### General Options
+- Moved the **Tamtam Damage Buff** option to the **Other Options** section.
+
+### Archipelago Client (v1.2.0)
+
+#### VS Improvements
+- Extended the **Tamtam Damage Buff** to work in both **VS/Story** and **VS/Contest** modes.
+
+#### Item Handling
+- Added a new animation when receiving an item from another player.
+- Added a separate animation when receiving a trap from another player.
+- Fixed a bug that incorrectly applied a delay to certain received items.
+
 ## [1.0.0] - 2026-11-02
 
 Updated project to version 1.0.0.
