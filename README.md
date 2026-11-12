@@ -83,6 +83,14 @@ If you experience crashes, lower one of these settings and try again.
 
 You may have already completed all currently available content in that mode. The original game does not let you return from certain game modes, but the client adds a way to do so: press **L2** to return to the main menu.
 
+### I'm playing VS/Contest with Death Link enabled, and pressing L2 doesn't return me to the main menu. How can I leave without dying and triggering Death Link?
+
+L2 is intentionally not implemented as a way to return to the main menu in **VS/Contest**. This is to prevent accidentally pressing it and losing your current win streak.
+
+To leave a level safely, use the following in-game menu sequence:
+
+**Start → Select → Quit Game → Yes**
+
 ### I found a Level Skip, but I didn't receive the item. Why?
 
 The client checks whether the Level Skip location has already been collected in the current seed. If you create multiple rooms using the same seed, that location may already be marked as checked, so the item will not be sent again.
