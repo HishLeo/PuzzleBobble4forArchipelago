@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0] - 2026-11-12
+
+Updated project to version 1.3.0.
+
+### Archipelago Client (v1.3.0)
+
+#### Bug Fixes
+- Fixed an issue where receiving the **Pointer Guide** item under certain conditions could disrupt bubble positioning logic.
+
+#### Puzzle Mode Improvements
+- In **Puzzle/Arcade**, only worlds that have not yet been completed are selectable.
+
+#### VS Improvements
+- Changed **Level Skip** behavior in VS modes: using a Level Skip now wins the match directly instead of dealing massive damage to the opponent.
+
+#### Commands
+- Added more detailed information to the `/arcade` and `/tarot` commands, including unlocked, completed, and not completed worlds and Tarot cards.
+
+### APWorld (v1.3.0)
+
+#### General
+- Updated the APWorld to reflect the latest Archipelago Client changes.
+
 ## [1.2.0] - 2026-11-06
 
 Updated project to version 1.2.0.
