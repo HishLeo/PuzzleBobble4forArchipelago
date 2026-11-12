@@ -97,6 +97,12 @@ The client checks whether the Level Skip location has already been collected in 
 
 If possible, generate a new room with a different seed.
 
+### Known Issues
+
+#### Visual Issues
+- In **Puzzle/Arcade**, characters may occasionally fly past the selected world during the selection animation. The correct world is still loaded.
+- In **VS/Story**, extra characters do not have sprites displayed in the enemy selection screen.
+
 ## Dependencies and acknowledgments
 
 This project uses [Archipelago.MultiClient.Net](https://github.com/ArchipelagoMW/Archipelago.MultiClient.Net), a .NET client library for communicating with Archipelago servers, distributed under the MIT License.
