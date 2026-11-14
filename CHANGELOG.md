@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+### Archipelago Client (v1.4.0)
+
+#### Progression Item Sound
+- Added a sound effect that plays when receiving a **Progression Item**, making it easier to notice received items while **BK (back)**.
+- Added the `/soundtest` command to play the progression-item sound and adjust the client's volume through the Windows Volume Mixer.
+
+### APWorld (v1.4.0)
+
+#### General
+- Fixed a typo.
+- Updated the APWorld to reflect the latest Archipelago Client changes.
+
+### PopTracker (v1.4.0)
+
+#### Tracker Improvements
+- Updated **VS/Story Complete** and **VS/Contest Complete** trackers to display only the characters selected in the YAML, hiding characters that cannot be unlocked or played in the current setup.
+
 ## [1.3.0] - 2026-11-12
 
 Updated project to version 1.3.0.
