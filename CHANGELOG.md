@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Archipelago Client (v1.4.0)
 
 #### Progression Item Sound
-- Added a sound effect that plays when receiving a **Progression Item**, making it easier to notice received items while **BK (back)**.
+- Added a sound effect that plays when receiving a **Progression Item**, making it easier to notice received items while **BK**.
 - Added the `/soundtest` command to play the progression-item sound and adjust the client's volume through the Windows Volume Mixer.
 
 ### APWorld (v1.4.0)
