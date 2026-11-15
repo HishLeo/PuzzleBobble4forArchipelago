@@ -19,6 +19,9 @@ All notable changes to this project will be documented in this file.
 #### Tracker Improvements
 - Updated **VS/Story Complete** and **VS/Contest Complete** trackers to display only the characters selected in the YAML, hiding characters that cannot be unlocked or played in the current setup.
 
+### PopTracker (v1.4.1)
+- Fixed a logic error with Bub.
+
 ## [1.3.0] - 2026-11-12
 
 Updated project to version 1.3.0.
