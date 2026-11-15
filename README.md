@@ -109,6 +109,8 @@ I don't recommend using them. The client may fail to recognize certain checks, o
 
 If you really need to use Save States, you can create one at the **Game Menu** (after the **Push Start Button** screen) to reload and navigate through the menus faster.
 
+You can pause the emulator without affecting the client.
+
 ### I found a Level Skip, but I didn't receive the item. Why?
 
 The client checks whether the Level Skip location has already been collected in the current seed. If you create multiple rooms using the same seed, that location may already be marked as checked, so the item will not be sent again.
