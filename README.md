@@ -91,6 +91,24 @@ To leave a level safely, use the following in-game menu sequence:
 
 **Start → Select → Quit Game → Yes**
 
+### What difficulties can I choose?
+
+You can choose the difficulty settings for **Puzzle/Arcade**, **Puzzle/Story**, and **VS/Contest** in the YAML.
+
+**VS/Story** uses the game's own difficulty settings. You can configure the difficulty through **Options → Game → Game Level**, and also through **Difficulty Selection** when selecting the game mode. Both options affect the difficulty of this mode.
+
+### Do I need to save my data to a Memory Card?
+
+No. The client modifies the game directly when receiving items, even when continuing an existing session.
+
+However, I recommend **not using a Memory Card** while playing with the client.
+
+### Can I use Save States or Speedups?
+
+I don't recommend using them. The client may fail to recognize certain checks, or in some cases, even break progression logic.
+
+If you really need to use Save States, you can create one at the **Game Menu** (after the **Push Start Button** screen) to reload and navigate through the menus faster.
+
 ### I found a Level Skip, but I didn't receive the item. Why?
 
 The client checks whether the Level Skip location has already been collected in the current seed. If you create multiple rooms using the same seed, that location may already be marked as checked, so the item will not be sent again.
@@ -98,6 +116,8 @@ The client checks whether the Level Skip location has already been collected in 
 If possible, generate a new room with a different seed.
 
 ### Known Issues
+
+- During the **VS/Story** enemy selection screen, the client may occasionally eat a movement or confirm input.
 
 #### Visual Issues
 - In **Puzzle/Arcade**, characters may occasionally fly past the selected world during the selection animation. The correct world is still loaded.
